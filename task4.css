@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  text-align: left;
+  color: #00695c;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  background: #ffffffdd;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00695c;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input-row label {
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 15px;
+}
